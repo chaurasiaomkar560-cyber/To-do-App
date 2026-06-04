@@ -1,0 +1,88 @@
+ html,body{
+    padding: 0px;
+    margin: 0px;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right bottom ,rgba(255, 217, 0, 0.916),rgba(210, 105, 30, 0.752));
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.main{
+    padding:24px 15px;
+    background-color: rgba(128, 128, 128, 0.271);
+    border-radius: 10px;
+    transform: scale(1.3);
+    box-sizing: border-box;
+     position:relative;
+     overflow: hidden;
+     z-index: 1;
+}
+
+h2{
+    text-align: center;
+}
+
+#task{
+    padding: 7px;
+    border: none;
+    border-radius: 20px;
+    background-color: rgba(240, 248, 255, 0.551);
+}
+#task:focus{
+    outline: none;
+}
+
+#btn{
+    padding: 7px;
+    border: none;
+    border-radius: 7px;
+    margin: 0px 5px;
+    background-color:rgba(255, 230, 0, 0.755);
+    color:black;
+    cursor: pointer;
+}
+
+.btn{
+    padding: 7px;
+    border: none;
+    border-radius: 7px;
+    background-color:rgba(255, 230, 0, 0.755);
+    color:black;
+    cursor: pointer;
+}
+
+#inps{
+    height: max-content;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0px;
+    padding-left: 15px;
+    overflow: hidden;
+    list-style:decimal;
+}
+
+.li  .newdiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:5px 0px 0px 10px ;
+}
+
+#main2{
+    width:100%;
+    height:fit-content;
+    margin-top: 5px;
+}
+
+#btn:hover , .btn:hover{
+    background-color:rgba(255, 230, 0, 0.304);
+
+}
+ 
